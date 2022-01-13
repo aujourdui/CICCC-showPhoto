@@ -11,6 +11,25 @@ a:hover {
   opacity: 0.8;
 }
 
+.photo-sm {
+  width: 200px;
+  height: 200px;
+}
+
+.photo-md {
+  width: 310px;
+  height: 200px;
+}
+
+.photo-lg {
+  width: 420px;
+  height: 200px;
+}
+
+.row div {
+  margin: 1rem 0;
+}
+
 .header {
   line-height: 12vh;
   background-color: rgba(0, 0, 0, 0.8);
