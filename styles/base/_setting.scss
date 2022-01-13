@@ -1,0 +1,27 @@
+//color
+$bgColor-header: rgba(0, 0, 0, 0.8);
+$fontColor-link: white;
+
+//mixin
+@mixin flexBox($justifyContent) {
+  display: flex;
+  justify-content: $justifyContent;
+  align-items: center;
+}
+
+//space
+$tablet-breakpoint: 60rem;
+$mobile-breakpoint: 48rem;
+
+//width for photo
+$photoSm__width: 200px;
+$photoMd__width: 310px;
+$photoLg__width: 420px;
+
+//width for photo(mobile)
+$photoSmMobile__width: 150px;
+$photoMdMobile__width: 200px;
+$photoLgMobile__width: 300px;
+
+//height for photo(stable)
+$photo-height: 200px;

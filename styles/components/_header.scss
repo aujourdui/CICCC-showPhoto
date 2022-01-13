@@ -1,0 +1,27 @@
+.header {
+  line-height: 12vh;
+  background-color: $bgColor-header;
+  color: $fontColor-link;
+  padding: 1rem 2rem;
+}
+
+.header-wrapper {
+  @include flexBox(space-between);
+}
+
+.headerNav__wrapper {
+  @include flexBox(space-around);
+}
+
+.header-content {
+  margin: 0 1rem;
+}
+
+@media (max-width: $mobile-breakpoint) {
+  .header {
+    padding: 1rem 1rem;
+  }
+  .header-content {
+    margin: 0 0.5rem;
+  }
+}

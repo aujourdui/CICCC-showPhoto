@@ -1,0 +1,22 @@
+.submit-container {
+  @include flexBox(center);
+
+  div {
+    div,
+    h3 {
+      margin-top: 1rem;
+    }
+  }
+}
+
+@media (max-width: $mobile-breakpoint) {
+  .submit-container {
+    margin-left: 1rem;
+
+    div {
+      input {
+        margin-top: 0.5rem;
+      }
+    }
+  }
+}

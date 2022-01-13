@@ -1,0 +1,14 @@
+.photoSee__container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+@media (max-width: 68rem) {
+  .photo-see {
+    width: 100%;
+  }
+  .photoSee__container {
+    margin: 1rem 0.2rem 0;
+  }
+}
