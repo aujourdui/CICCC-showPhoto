@@ -11,18 +11,18 @@ a {
 }
 
 .photo-sm {
-  width: 200px;
-  height: 200px;
+  width: $photoSm__width;
+  height: $photo-height;
 }
 
 .photo-md {
-  width: 310px;
-  height: 200px;
+  width: $photoMd__width;
+  height: $photo-height;
 }
 
 .photo-lg {
-  width: 420px;
-  height: 200px;
+  width: $photoLg__width;
+  height: $photo-height;
 }
 
 @media (max-width: $mobile-breakpoint) {
@@ -35,12 +35,12 @@ a {
 
 @media (max-width: $tablet-breakpoint) and (min-width: $mobile-breakpoint) {
   .photo-sm {
-    width: 150px;
+    width: $photoSmMobile__width;
   }
   .photo-md {
-    width: 200px;
+    width: $photoMdMobile__width;
   }
   .photo-lg {
-    width: 300px;
+    width: $photoLgMobile__width;
   }
 }
