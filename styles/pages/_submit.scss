@@ -1,0 +1,10 @@
+.submit-container {
+  @include flexBox(center);
+
+  div {
+    div,
+    h3 {
+      margin-top: 1rem;
+    }
+  }
+}
