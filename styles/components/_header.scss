@@ -1,0 +1,18 @@
+.header {
+  line-height: 12vh;
+  background-color: $bgColor-header;
+  color: $fontColor-header;
+  padding: 1rem 2rem;
+}
+
+.header-wrapper {
+  @include flexBox(space-between);
+}
+
+.headerNav__wrapper {
+  @include flexBox(space-around);
+}
+
+.header-content {
+  margin: 0 1rem;
+}

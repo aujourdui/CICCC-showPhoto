@@ -1,0 +1,11 @@
+//color
+$bgColor-header: rgba(0, 0, 0, 0.8);
+$fontColor-header: white;
+
+//mixin
+
+@mixin flexBox($justifyContent) {
+  display: flex;
+  justify-content: $justifyContent;
+  align-items: center;
+}
