@@ -26,6 +26,26 @@ a:hover {
   height: 200px;
 }
 
+@media (max-width: 48rem) {
+  .photo-sm,
+  .photo-md,
+  .photo-lg {
+    width: 100%;
+  }
+}
+
+@media (max-width: 60rem) and (min-width: 48rem) {
+  .photo-sm {
+    width: 150px;
+  }
+  .photo-md {
+    width: 200px;
+  }
+  .photo-lg {
+    width: 300px;
+  }
+}
+
 .row div {
   margin: 1rem 0;
 }
@@ -38,6 +58,15 @@ a:hover {
       -ms-flex-pack: center;
           justify-content: center;
   margin-top: 1rem;
+}
+
+@media (max-width: 68rem) {
+  .photo-see {
+    width: 100%;
+  }
+  .photoSee__container {
+    margin: 1rem 0.2rem 0;
+  }
 }
 
 .submit-container {
@@ -55,6 +84,15 @@ a:hover {
 .submit-container div div,
 .submit-container div h3 {
   margin-top: 1rem;
+}
+
+@media (max-width: 48rem) {
+  .submit-container {
+    margin-left: 1rem;
+  }
+  .submit-container div input {
+    margin-top: 0.5rem;
+  }
 }
 
 .header {
@@ -89,5 +127,14 @@ a:hover {
 
 .header-content {
   margin: 0 1rem;
+}
+
+@media (max-width: 48rem) {
+  .header {
+    padding: 1rem 1rem;
+  }
+  .header-content {
+    margin: 0 0.5rem;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

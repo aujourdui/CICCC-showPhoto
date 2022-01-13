@@ -24,3 +24,23 @@ a {
   width: 420px;
   height: 200px;
 }
+
+@media (max-width: $mobile-breakpoint) {
+  .photo-sm,
+  .photo-md,
+  .photo-lg {
+    width: 100%;
+  }
+}
+
+@media (max-width: $tablet-breakpoint) and (min-width: $mobile-breakpoint) {
+  .photo-sm {
+    width: 150px;
+  }
+  .photo-md {
+    width: 200px;
+  }
+  .photo-lg {
+    width: 300px;
+  }
+}

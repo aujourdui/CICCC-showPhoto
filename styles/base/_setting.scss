@@ -3,9 +3,12 @@ $bgColor-header: rgba(0, 0, 0, 0.8);
 $fontColor-link: white;
 
 //mixin
-
 @mixin flexBox($justifyContent) {
   display: flex;
   justify-content: $justifyContent;
   align-items: center;
 }
+
+//space
+$tablet-breakpoint: 60rem;
+$mobile-breakpoint: 48rem;

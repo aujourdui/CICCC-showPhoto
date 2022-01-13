@@ -8,3 +8,15 @@
     }
   }
 }
+
+@media (max-width: $mobile-breakpoint) {
+  .submit-container {
+    margin-left: 1rem;
+
+    div {
+      input {
+        margin-top: 0.5rem;
+      }
+    }
+  }
+}
