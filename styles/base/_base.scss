@@ -9,38 +9,3 @@ a {
     opacity: 0.8;
   }
 }
-
-.photo-sm {
-  width: $photoSm__width;
-  height: $photo-height;
-}
-
-.photo-md {
-  width: $photoMd__width;
-  height: $photo-height;
-}
-
-.photo-lg {
-  width: $photoLg__width;
-  height: $photo-height;
-}
-
-@media (max-width: $mobile-breakpoint) {
-  .photo-sm,
-  .photo-md,
-  .photo-lg {
-    width: 100%;
-  }
-}
-
-@media (max-width: $tablet-breakpoint) and (min-width: $mobile-breakpoint) {
-  .photo-sm {
-    width: $photoSmMobile__width;
-  }
-  .photo-md {
-    width: $photoMdMobile__width;
-  }
-  .photo-lg {
-    width: $photoLgMobile__width;
-  }
-}
